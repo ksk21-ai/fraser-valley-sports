@@ -39,6 +39,7 @@ dependencies:
   url_launcher: ^6.3.2
   shared_preferences: ^2.5.3
   google_maps_flutter: ^2.12.1
+  firebase_analytics: ^12.4.5
 
 dev_dependencies:
   flutter_test:
