@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "486446307419",
+    "project_id": "sports-access-app",
+    "storage_bucket": "sports-access-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486446307419:android:410815439f51d7d821c77e",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxCnDzfLCM7ydgT_JKuFpJyHXz7hy5OAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

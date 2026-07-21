@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "sports-access-app",
+          "appId": "1:486446307419:android:410815439f51d7d821c77e",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "sports-access-app",
+          "configurations": {
+            "android": "1:486446307419:android:410815439f51d7d821c77e",
+            "ios": "1:486446307419:ios:92d2fd0dd3122ddc21c77e",
+            "macos": "1:486446307419:ios:92d2fd0dd3122ddc21c77e",
+            "web": "1:486446307419:web:022737b3e95929d421c77e",
+            "windows": "1:486446307419:web:59a31abbc92b5dda21c77e"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
